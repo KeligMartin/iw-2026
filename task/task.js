@@ -9,5 +9,3 @@ export class Task {
         // ?.firstname pour éviter les null pointer exception (NPE)
     }
 }
-
-export default Task;
