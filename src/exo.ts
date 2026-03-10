@@ -18,7 +18,7 @@ class Utilisateur {
         // A FAIRE
     }
 
-    afficherCommande(): void {
+    afficherCommandes(): void {
         // A FAIRE
     }
 }
