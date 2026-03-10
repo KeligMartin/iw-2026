@@ -10,13 +10,16 @@ const divide = (a, b) =>  {
     });
 };
 
-const verifyLength = () => {
-    // DEVELOPPER UNE METHODE QUI PERMET DE VERIFIER QUE LA CHAINE DE CARACTERE
-    // A UNE LONGUEUR SUPERIEURE A 5
-    // INFERIEURE A 25
-    // CONTIENT UNE MAJUSCULE ET UNE MINUSCULE
+function substract(a) {
+    return function (b) {
+        return a - b;
+    }
 }
 
-const register = () => {} // PROMISE QUI ENVOIE LA CHAINE DE CARACTERE A LA METHODE
+const multiply = a => b => a * b
 
+const applyVAT = multiply(1.19)
 
+const product = 15
+
+console.log(applyVAT(product))
